@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能资讯助手</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>智能资讯助手</h1>
+        </header>
+        
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="输入关键词搜索相关内容">
+                <button class="clear-btn" id="clearBtn">×</button>
+            </div>
+            <button class="search-btn" id="searchBtn">
+                <span class="icon">🤖</span>
+                开始智能采集
+            </button>
+        </div>
+
+        <div class="news-container" id="newsContainer">
+            <!-- 新闻卡片将通过JavaScript动态添加 -->
+        </div>
+
+        <nav class="bottom-nav">
+            <a href="#" class="active">
+                <span class="icon">🏠</span>
+                <span>首页</span>
+            </a>
+            <a href="#">
+                <span class="icon">⭐</span>
+                <span>收藏</span>
+            </a>
+            <a href="#">
+                <span class="icon">🕒</span>
+                <span>历史</span>
+            </a>
+            <a href="#">
+                <span class="icon">👤</span>
+                <span>我的</span>
+            </a>
+        </nav>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
